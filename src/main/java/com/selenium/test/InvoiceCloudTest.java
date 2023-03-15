@@ -18,6 +18,7 @@ import java.util.List;
 //        a. navigates to The Internet (the-internet.herokuapp.com)
 //        b. adds n number of elements
 //        c. asserts that n number of elements exist on the page
+//        Bonus points if you can run it with GitHub actions and output a report.
 
 public class InvoiceCloudTest {
     public WebDriver driver;
