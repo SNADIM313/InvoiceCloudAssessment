@@ -41,5 +41,7 @@ public class InvoiceCloudTest {
         numberOfAddedElements = driver.findElements(By.xpath("//div[@id='elements']//button[@class='added-manually']"));
 
         Assert.assertEquals(numberOfAddedElements.size(), numberAdded);
+
+        driver.quit();
     }
 }
